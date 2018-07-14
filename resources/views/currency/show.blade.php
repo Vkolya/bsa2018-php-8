@@ -6,7 +6,7 @@
 
 @page_header
     @slot('header') 
-        Currency info 
+        {{ $currency->title }}
     @endslot
 @endpage_header
 <div class="text-center currency-info">
