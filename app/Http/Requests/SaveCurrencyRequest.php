@@ -24,7 +24,7 @@ class SaveCurrencyRequest extends FormRequest {
         return [
             'title' => 'required|max:255',
             'short_name' => 'required|max:10|min:2',
-            'logo_url' => 'required|url|active_url',
+            'logo_url' => 'required|url',
             'price' => 'required|numeric|min:0',
         ];
     }
