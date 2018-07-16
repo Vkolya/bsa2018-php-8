@@ -22,7 +22,7 @@ Route::prefix('currencies')->group(function () {
     Route::post('/', 'CurrencyController@store')->name('currencies-store');
     Route::get('/{id}/edit', 'CurrencyController@edit')->name('currencies-edit');
     Route::put('/{id}', 'CurrencyController@update')->name('currencies-update');
-    Route::get('/delete/{id}', 'CurrencyController@delete')->name('currencies-delete');
+    Route::delete('/delete/{id}', 'CurrencyController@delete')->name('currencies-delete');
 });
  
 

@@ -23,6 +23,9 @@
                 margin: 0 auto;
                 width: 50%;
             }
+            .form-delete {
+                display: inline-block;
+            }
         </style>
 
     </head>
